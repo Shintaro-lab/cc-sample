@@ -9,15 +9,16 @@ cc-sample/
 ├── legacy/                          # レガシーアプリ
 │   ├── docs/                        # 仕様ドキュメント
 │   │   ├── README.md                # ドキュメント目次・機能ID索引
-│   │   ├── overview/
+│   │   ├── shared/                  # 共通ドキュメント
 │   │   │   ├── architecture.md      # アーキテクチャ・技術スタック
-│   │   │   └── feature-list.md      # 機能一覧（F-AUTH, F-TASK, F-UI）
-│   │   └── detail/
-│   │       ├── auth.md              # 認証システム仕様
-│   │       ├── task-management.md   # タスク管理仕様
-│   │       ├── screen-spec.md       # 画面仕様・画面遷移
-│   │       ├── database.md          # DB定義・ER図・SQL
-│   │       └── infrastructure.md    # 依存パッケージ・テーマ・セッション
+│   │   │   ├── feature-list.md      # 機能一覧（F-AUTH, F-TASK, F-UI）
+│   │   │   ├── screen-spec.md       # 画面仕様・画面遷移
+│   │   │   ├── database.md          # DB定義・ER図・SQL
+│   │   │   └── infrastructure.md    # 依存パッケージ・テーマ・セッション
+│   │   ├── auth/                    # 認証関連（仕様書 + E2Eテストケース）
+│   │   │   └── auth.md              # 認証システム仕様
+│   │   └── task-management/         # タスク管理関連（仕様書 + E2Eテストケース）
+│   │       └── task-management.md   # タスク管理仕様
 │   └── src/app/                     # ソースコード
 │       ├── app.py                   # エントリポイント
 │       ├── auth/                    # 認証モジュール
