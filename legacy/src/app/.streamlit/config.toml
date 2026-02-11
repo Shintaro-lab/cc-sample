@@ -1,0 +1,5 @@
+[client]
+toolbarMode = "minimal"   # または viewer / developer / auto
+
+[ui]
+hideTopBar = true          # トップバー自体を非表示にする
